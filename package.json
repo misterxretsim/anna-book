@@ -1,0 +1,21 @@
+{
+  "name": "anna-book",
+  "version": "1.0.0",
+  "description": "Bot for Telegram",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "kelfish",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "telegraf": "^4.5.2"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0"
+  }
+}
